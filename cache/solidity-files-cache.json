@@ -36,6 +36,42 @@
       "artifacts": [
         "Lock"
       ]
+    },
+    "/home/kyle/Desktop/test/sprint/090909.blockchain/2.Sophmore/1.nft-collection/crypto-currency-angular/contracts/Whitelist.sol": {
+      "lastModificationDate": 1704622965046,
+      "contentHash": "819f463651ba3f3bead136705a01b273",
+      "sourceName": "contracts/Whitelist.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "Whitelist"
+      ]
     }
   }
 }
