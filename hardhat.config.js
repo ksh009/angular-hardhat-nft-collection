@@ -4,7 +4,6 @@ require("@nomicfoundation/hardhat-toolbox");
  * @type import('hardhat/config').HardhatUserConfig
  */
 require("dotenv").config();
-console.log("config file accessed!");
 
 const privateKey = process.env.PRIVATE_KEY;
 
@@ -21,6 +20,11 @@ module.exports = {
     //   url: "https://polygon-rpc.com",
     //   accounts: [privateKey],
     // },
+  },
+  etherscan: {
+    apiKey: {
+      sepolia: process.env.ETHERSCAN_TOKEN,
+    },
   },
   solidity: "0.8.20",
 };
